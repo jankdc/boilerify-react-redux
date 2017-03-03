@@ -5,7 +5,7 @@
  */
 
 const app = require('../app');
-const debug = require('debug')('remote-media-sync:server');
+const debug = require('debug')('boilerify-react-redux:server');
 const http = require('http');
 
 /**
