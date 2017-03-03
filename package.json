@@ -15,6 +15,7 @@
     "debug": "2.6.0",
     "express": "4.14.1",
     "morgan": "1.7.0",
+    "normalize.css": "5.0.0",
     "pm2": "2.4.2",
     "pug": "2.0.0-beta10",
     "react": "15.4.2",
@@ -56,8 +57,7 @@
         "browserify-css",
         {
           "autoInject": true,
-          "minify": false,
-          "rootDir": "./client"
+          "minify": false
         }
       ]
     ]
