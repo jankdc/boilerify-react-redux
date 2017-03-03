@@ -1,0 +1,7 @@
+{
+  "verbose": false,
+  "ignore": ["*.test.js", "fixtures/*", "*bundle*.js*"],
+  "events": {
+    "restart": "npm run build:dev"
+  }
+}

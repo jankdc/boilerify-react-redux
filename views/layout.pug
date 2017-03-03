@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title= title
+  body
+    block content
+
+    if development
+      script(src='/bundle.js')
+    else
+      script(src='/bundle.min.js')
