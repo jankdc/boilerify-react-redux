@@ -54,26 +54,6 @@ npm install
 
 Both works, but I prefer `yarn`.
 
-## Commands
-
-```
-npm start
-```
-Bundles and minifies your code (server and client) to /public.
-It then starts the app in a pm2 environment.
-
-```
-npm run develop
-```
-Bundles and watches your unminified code (server and client) to /public.
-It then starts the app in a nodemon environment.
-
-```
-npm test
-```
-Guess what it does...
-
-
 ## Environment Variables
 
 
@@ -103,3 +83,22 @@ export PORT=8080
 
 Set the port that the server will listen to.
 Defaults to `3000`.
+
+## Commands
+
+```
+npm start
+```
+Bundles and minifies your code (server and client) to /public.
+It then starts the app in a pm2 environment.
+
+```
+npm run develop
+```
+Bundles and watches your unminified code (server and client) to /public.
+It then starts the app in a nodemon environment.
+
+```
+npm test
+```
+Guess what it does...
