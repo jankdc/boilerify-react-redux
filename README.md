@@ -62,3 +62,25 @@ Starts your code in a production environment.
 npm test
 ```
 Guess what it does...
+
+
+## Environment Variables
+
+
+### NODE_ENV
+
+```
+export NODE_ENV=development
+```
+or
+```
+export NODE_ENV=production
+```
+
+### DEBUG
+
+```
+export DEBUG=boilerify-react-redux:*
+```
+
+If you want that debugging goodness on the console.
