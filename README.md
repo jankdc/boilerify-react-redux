@@ -41,22 +41,32 @@ boilerplate:
 `-- README.md
 ```
 
+## Installation
+
+```
+yarn install
+```
+or
+
+```
+npm install
+```
+
+Both works, but I prefer `yarn`.
+
 ## Commands
+
+```
+npm start
+```
+Bundles and minifies your code (server and client) to /public.
+It then starts the app in a pm2 environment.
 
 ```
 npm run develop
 ```
 Bundles and watches your unminified code (server and client) to /public.
-
-```
-npm run build
-```
-Bundles and minifies your code to full compact ugliness.
-
-```
-npm start
-```
-Starts your code in a production environment.
+It then starts the app in a nodemon environment.
 
 ```
 npm test
