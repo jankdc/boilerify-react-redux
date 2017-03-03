@@ -51,6 +51,14 @@
             "es2017"
           ]
         }
+      ],
+      [
+        "browserify-css",
+        {
+          "autoInject": true,
+          "minify": false,
+          "rootDir": "./client"
+        }
       ]
     ]
   }
