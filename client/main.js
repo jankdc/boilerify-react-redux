@@ -1,5 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import dom from 'react-dom';
+import css from './main.css';
 
 const HelloWorld = () => {
   return (
@@ -7,4 +8,4 @@ const HelloWorld = () => {
   );
 };
 
-ReactDOM.render(<HelloWorld />, document.querySelector('main'));
+dom.render(<HelloWorld />, document.querySelector('main'));
