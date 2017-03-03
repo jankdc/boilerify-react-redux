@@ -84,3 +84,12 @@ export DEBUG=boilerify-react-redux:*
 ```
 
 If you want that debugging goodness on the console.
+
+### PORT
+
+```
+export PORT=8080
+```
+
+Set the port that the server will listen to.
+Defaults to `3000`.
