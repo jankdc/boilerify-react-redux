@@ -13,10 +13,11 @@ boilerplate:
 ```
 .
 |-- client                # Contains all the browser code.
+|   |-- main.css          # Main CSS to rule them all.
 |   `-- main.js           # Browser entry point.
 |-- public                # Contains all files that a browser can access.
 |   |-- bundle.js         # Generated browserify bundle.
-|   `-- bundle.js.map     # Source map for bundle.js.
+|   |-- bundle.js.map     # Source map for bundle.js.
 |   |-- bundle.min.js     # Production quality browserify bundle.
 |   `-- bundle.min.js.map # Source map for bundle.min.js.
 |-- routes                # All the RESTful routing code is in here.
